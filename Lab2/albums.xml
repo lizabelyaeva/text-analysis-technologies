@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<albums>
+<!-- подключение DTD к XML-->
+<!-- <!DOCTYPE albums SYSTEM "albums.dtd">-->
+
+<!-- Подключаем XML Schema -->
+<albums xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="albums.xsd">
     <album>
         <title>Born to Die</title>
         <artists>

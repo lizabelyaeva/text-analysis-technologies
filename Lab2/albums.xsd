@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Корневой элемент Schema -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Описание корневого XML-элемента -->
+    <xs:element name="albums">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Внутри albums могут быть 1..∞ album -->
+                <xs:element name="album" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <!-- Название альбома -->
+                            <xs:element name="title" type="xs:string"/>
+
+                            <!-- Блок artists -->
+                            <xs:element name="artists">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <!-- Исполнителей может быть много -->
+                                        <xs:element name="artist" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- Блок genres -->
+                            <xs:element name="genres">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <!-- Жанров много -->
+                                        <xs:element name="genre" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- Дата выхода альбома -->
+                            <xs:element name="releaseDate" type="xs:date"/>
+
+                            <!-- Возрастной рейтинг -->
+                            <xs:element name="ageLimit" type="xs:string"/>
+
+                            <!-- Треки -->
+                            <xs:element name="tracks">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="track" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="title" type="xs:string"/>
+                                                    <xs:element name="duration" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

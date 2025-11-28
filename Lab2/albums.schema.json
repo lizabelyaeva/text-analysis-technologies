@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["title", "artists", "genres", "releaseDate", "ageLimit", "tracks"],
+    "properties": {
+      "title": { "type": "string" },
+      "artists": { 
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "genres": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "releaseDate": { "type": "string", "format": "date" },
+      "ageLimit": { "type": "string" },
+      "tracks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["title", "duration"],
+          "properties": {
+            "title": { "type": "string" },
+            "duration": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

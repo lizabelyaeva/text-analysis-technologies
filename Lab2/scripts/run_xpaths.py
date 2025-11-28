@@ -1,12 +1,8 @@
-#!/usr/bin/env python3
-# run_xpaths.py
-# Пример выполнения XPath-запросов для файлов lab2/albums.xml
-
 import os
 import random
 from lxml import etree
 
-# Путь к XML (предполагаем, что запускаем из lab2/)
+# Путь к XML
 BASE = os.path.dirname(os.path.dirname(__file__))  # lab2
 XML_PATH = os.path.join(BASE, "albums.xml")
 
@@ -23,7 +19,7 @@ def b_genres_by_artist(tree, artist):
     return tree.xpath(expr)
 
 def c_albums_with_tracks_over_5min(tree):
-    # Надежный способ: пройти по каждому альбому и проверять durations в Python.
+    # пройти по каждому альбому и проверять durations в Python.
     albums = tree.xpath('//album')
     result = []
     for a in albums:

@@ -1,0 +1,10 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "/Users/elizaveta/vs-project/text-analysis-technologies/Lab2/venv/bin/python"
+  }
+}
