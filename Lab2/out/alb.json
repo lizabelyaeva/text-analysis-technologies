@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Born to Die",
+    "artists": ["Lana Del Rey"],
+    "genres": ["Indie Pop", "Baroque Pop"],
+    "releaseDate": "2012-01-27",
+    "ageLimit": "16+",
+    "tracks": [
+      { "title": "Born to Die", "duration": "4:46" }
+    ]
+  },
+  {
+    "title": "AM",
+    "artists": ["Arctic Monkeys"],
+    "genres": ["Indie Rock", "Alternative Rock"],
+    "releaseDate": "2013-09-09",
+    "ageLimit": "12+",
+    "tracks": [
+      { "title": "Do I Wanna Know?", "duration": "4:32" }, 
+      { "title": "R U Mine?", "duration": "3:21" }, 
+      { "title": "Arabella", "duration": "3:27" }
+    ]
+  },
+  {
+    "title": "OK Computer",
+    "artists": ["Radiohead"],
+    "genres": ["Alternative Rock", "Art Rock"],
+    "releaseDate": "1997-05-21",
+    "ageLimit": "12+",
+    "tracks": [
+      { "title": "Airbag", "duration": "4:44" }, 
+      { "title": "Paranoid Android", "duration": "6:23" }, 
+      { "title": "No Surprises", "duration": "3:49" }
+    ]
+  },
+  {
+    "title": "The Black Parade",
+    "artists": ["My Chemical Romance"],
+    "genres": ["Alternative Rock", "Emo"],
+    "releaseDate": "2006-10-23",
+    "ageLimit": "16+",
+    "tracks": [
+      { "title": "Welcome to the Black Parade", "duration": "5:11" }, 
+      { "title": "Teenagers", "duration": "2:41" }, 
+      { "title": "I Don't Love You", "duration": "3:59" }
+    ]
+  }
+]

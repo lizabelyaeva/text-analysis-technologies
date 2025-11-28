@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- подключение DTD к XML-->
+<!-- <!DOCTYPE albums SYSTEM "albums.dtd">-->
+
+<!-- Подключаем XML Schema -->
+<albums xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="albums.xsd">
+    <album>
+        <title>Born to Die</title>
+        <artists>
+            <artist>Lana Del Rey</artist>
+        </artists>
+        <genres>
+            <genre>Indie Pop</genre>
+            <genre>Baroque Pop</genre>
+        </genres>
+        <releaseDate>2012-01-27</releaseDate>
+        <ageLimit>16+</ageLimit>
+        <tracks>
+            <track>
+                <title>Born to Die</title>
+                <duration>4:46</duration>
+            </track>
+        </tracks>
+    </album>
+
+    <album>
+        <title>AM</title>
+        <artists>
+            <artist>Arctic Monkeys</artist>
+        </artists>
+        <genres>
+            <genre>Indie Rock</genre>
+            <genre>Alternative Rock</genre>
+        </genres>
+        <releaseDate>2013-09-09</releaseDate>
+        <ageLimit>12+</ageLimit>
+        <tracks>
+            <track>
+                <title>Do I Wanna Know?</title>
+                <duration>4:32</duration>
+            </track>
+            <track>
+                <title>R U Mine?</title>
+                <duration>3:21</duration>
+            </track>
+            <track>
+                <title>Arabella</title>
+                <duration>3:27</duration>
+            </track>
+        </tracks>
+    </album>
+
+    <album>
+        <title>OK Computer</title>
+        <artists>
+            <artist>Radiohead</artist>
+        </artists>
+        <genres>
+            <genre>Alternative Rock</genre>
+            <genre>Art Rock</genre>
+        </genres>
+        <releaseDate>1997-05-21</releaseDate>
+        <ageLimit>12+</ageLimit>
+        <tracks>
+            <track>
+                <title>Airbag</title>
+                <duration>4:44</duration>
+            </track>
+            <track>
+                <title>Paranoid Android</title>
+                <duration>6:23</duration>
+            </track>
+            <track>
+                <title>No Surprises</title>
+                <duration>3:49</duration>
+            </track>
+        </tracks>
+    </album>
+
+    <album>
+        <title>The Black Parade</title>
+        <artists>
+            <artist>My Chemical Romance</artist>
+        </artists>
+        <genres>
+            <genre>Alternative Rock</genre>
+            <genre>Emo</genre>
+        </genres>
+        <releaseDate>2006-10-23</releaseDate>
+        <ageLimit>16+</ageLimit>
+        <tracks>
+            <track>
+                <title>Welcome to the Black Parade</title>
+                <duration>5:11</duration>
+            </track>
+            <track>
+                <title>Teenagers</title>
+                <duration>2:41</duration>
+            </track>
+            <track>
+                <title>I Don't Love You</title>
+                <duration>3:59</duration>
+            </track>
+        </tracks>
+    </album>
+</albums>

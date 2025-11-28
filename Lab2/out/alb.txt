@@ -1,0 +1,44 @@
+Albums list
+====================
+Title: Born to Die
+Artists: Lana Del Rey
+Genres: Indie Pop, Baroque Pop
+Release date: 2012-01-27
+Age limit: 16+
+Tracks:
+  - Born to Die (4:46)
+--------------------
+
+Title: AM
+Artists: Arctic Monkeys
+Genres: Indie Rock, Alternative Rock
+Release date: 2013-09-09
+Age limit: 12+
+Tracks:
+  - Do I Wanna Know? (4:32)
+  - R U Mine? (3:21)
+  - Arabella (3:27)
+--------------------
+
+Title: OK Computer
+Artists: Radiohead
+Genres: Alternative Rock, Art Rock
+Release date: 1997-05-21
+Age limit: 12+
+Tracks:
+  - Airbag (4:44)
+  - Paranoid Android (6:23)
+  - No Surprises (3:49)
+--------------------
+
+Title: The Black Parade
+Artists: My Chemical Romance
+Genres: Alternative Rock, Emo
+Release date: 2006-10-23
+Age limit: 16+
+Tracks:
+  - Welcome to the Black Parade (5:11)
+  - Teenagers (2:41)
+  - I Don't Love You (3:59)
+--------------------
+
