@@ -1,0 +1,4 @@
+# requirements.txt - упрощенная версия
+aiogram==3.3.0
+requests==2.31.0
+aiohttp==3.9.1
