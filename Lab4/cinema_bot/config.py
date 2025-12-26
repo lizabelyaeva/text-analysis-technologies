@@ -5,8 +5,8 @@
 """
 
 # Токены и ключи (ОБЯЗАТЕЛЬНО заменить на свои!)
-BOT_TOKEN = "7999716240:AAFvdOZlw9TWzQ4QwQNml1oY4ka2HT9EQy8"
-KINOPOISK_API_KEY = "KV5383A-KDK4NFZ-N7TRTVQ-0XHK13X"
+BOT_TOKEN = "..."
+KINOPOISK_API_KEY = "..."
 
 # API endpoints
 KINOPOISK_API_URL = "https://api.kinopoisk.dev/v1.4"
